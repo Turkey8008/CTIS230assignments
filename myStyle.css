@@ -33,6 +33,7 @@ h1{
     margin: 0;
     margin-left: 0;
     margin-right: 0;
+    text-align:center;
 }
 
 h2{
@@ -48,7 +49,8 @@ h4{
 }
 image{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
 }
