@@ -26,6 +26,8 @@ a:visited:active {
 
 body{
     color:blue;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color:blanchedalmond;
 }
 
@@ -58,3 +60,4 @@ h4{
     text-align:center;
 
 }
+
