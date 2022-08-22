@@ -48,7 +48,8 @@ h3{
 h4{
     color:rgb(105, 42, 105);
 }
-image{
+
+.centered{
     padding: 0;
     margin: 0, auto;
     margin-left: 0, auto;
