@@ -28,17 +28,19 @@ body{
 }
 
 h1{
-    color:rgb(105, 42, 105)
+    color:rgb(105, 42, 105);
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h2{
-    color:rgb(105, 42, 105)
+    color:rgb(105, 42, 105);
 }
 
 h3{
-    color:rgb(105, 42, 105)
+    color:rgb(105, 42, 105);
 }
 
 h4{
-    color:rgb(105, 42, 105)
+    color:rgb(105, 42, 105);
 }
