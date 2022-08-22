@@ -15,11 +15,11 @@ a:visited {
     color:darkred;
 }
 
-a:hover:visited {
+a:visited:hover {
     color:red;
 }
 
-a:active:visited {
+a:visited:active {
     color:darkred;
 }
 
