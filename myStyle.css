@@ -1,6 +1,28 @@
 a:link {
     color:darkgreen;
+    text-decoration: none;
 }
+
+a:hover {
+    color:rgb(27, 143, 46);
+}
+
+a:active {
+    color:darkgreen;
+}
+
+a:visited {
+    color:darkred;
+}
+
+a:hover:visited {
+    color:red;
+}
+
+a:active:visited {
+    color:darkred;
+}
+
 body{
     color:blue;
 }
