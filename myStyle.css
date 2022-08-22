@@ -63,3 +63,6 @@ h4 {
 p {
     text-indent: 2em;
 } 
+ul li {
+    list-style-type: circle
+}
