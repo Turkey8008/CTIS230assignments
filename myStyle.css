@@ -60,9 +60,11 @@ h4 {
     margin-right: 0, auto;
     text-align:center;
 }
+
 p {
     text-indent: 2em;
 } 
+
 ul li {
     list-style-type: circle
 }
