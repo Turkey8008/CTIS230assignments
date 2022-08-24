@@ -59,7 +59,8 @@ p {
 } 
 
 ul li {
-    list-style-type: circle
+    list-style-type: circle;
+    margin-bottom: 1.4em;
 }
 
 .intro {
@@ -68,11 +69,14 @@ ul li {
 
 img#salinger {
     float: right;
-    margin: 2.5em
+    margin: 2.5em;
 }
 .salingerparagraph {
-    margin-top: 5em
+    margin-top: 5em;
 }
 sub {
     text-indent: 2em;
+}
+.finallist {
+    margin-bottom: 2em;
 }
