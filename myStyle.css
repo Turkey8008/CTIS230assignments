@@ -73,3 +73,6 @@ img#salinger {
 .salingerparagraph {
     margin-top: 5em
 }
+sub {
+    text-indent: 2em;
+}
