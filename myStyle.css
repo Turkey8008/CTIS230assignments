@@ -109,7 +109,7 @@ sub {
 header {
     margin: 0;
     padding: 0.5%;
-    width: 100%;
+    width: 99%;
     background-color: burlywood;
 }
 
@@ -120,10 +120,16 @@ header {
 footer {
     margin: 0;
     padding: 0.5%;
-    width: 100%;
+    width: 99%;
     background-color: burlywood;
+    position: absolute;
+    bottom: 0px;
+    
 }
 .footer {
-    margin-left: 80%;
+    text-align: center;
     color:dimgrey;
+}
+.main {
+    position:relative
 }
