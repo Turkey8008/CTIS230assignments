@@ -101,7 +101,15 @@ sub {
     flex-direction: row;
 }
 
-.flexed {margin-right: 2em;}
+.flexed1 {
+    margin-right: 2em;
+    width: calc(50% - 1em);
+}
+
+.flexed2 {
+    width: calc(50% - 1em);
+}
+
 .noindent {
     text-indent: 0em;
 }
