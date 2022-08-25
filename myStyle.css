@@ -123,3 +123,7 @@ footer {
     width: 100%;
     background-color: burlywood;
 }
+.footer {
+    margin-left: 80%;
+    color:dimgrey;
+}
