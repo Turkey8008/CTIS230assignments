@@ -94,12 +94,14 @@ sub {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%
+    width: 100%;
+    
 }
 
 .flex2 {
     display: flex;
     flex-direction: row;
+    
 }
 
 .flexed1 {
@@ -139,7 +141,4 @@ footer {
 .footer {
     text-align: center;
     color:dimgrey;
-}
-.main {
-    position:relative
 }
