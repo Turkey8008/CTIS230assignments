@@ -115,6 +115,11 @@ sub {
     text-indent: 0em;
 }
 
+#noindent2 {
+    text-indent: 0em;
+}
+
+
 header {
     margin: 0;
     padding: 0.5%;
@@ -141,4 +146,7 @@ footer {
 }
 .main {
     position:relative
+}
+#buttontest {
+    text-indent: 0em;
 }
