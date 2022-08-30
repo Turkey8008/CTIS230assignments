@@ -16,12 +16,12 @@ function onMouseOut() {
 }
 
 thebutton = document.getElementById("thebutton");  
-otheritem = document.getElementById("buttontest");
+changeitem = document.getElementById("buttontest");
 
 thebutton.addEventListener("click", onButtonClick);
 
 function onButtonClick() {  
-    otheritem.style.color = "red";  
+    changeitem.style.color = "red";  
 }
 
 textentry = document.getElementById("myinput");  
@@ -29,5 +29,5 @@ textentry.addEventListener("change", onChange);
 
 function onChange() {  
     newtext = myinput.value;  
-    otheritem.innerHTML = newtext;  
+    changeitem.innerHTML = newtext;  
 }
