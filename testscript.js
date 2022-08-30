@@ -6,28 +6,13 @@ myitem.addEventListener("click", onClick);
 function onClick() {  
     // Changes the color of myitem to green when it is clicked
     myitem.style.color = "green";
+    // Changes the font of myitem to green when it is clicked
     myitem.style.fontFamily = "Courier", "Times", "Times New Roman";  
 }
 myitem.addEventListener("mouseout", onMouseOut);
 
 function onMouseOut() { 
+
     myitem.style.color = "blue";
-    myitem.style.fontFamily = ""
-}
-
-thebutton = document.getElementById("thebutton");  
-changeitem = document.getElementById("buttontest");
-
-thebutton.addEventListener("click", onButtonClick);
-
-function onButtonClick() {  
-    changeitem.style.color = "red";  
-}
-
-textentry = document.getElementById("myinput");  
-textentry.addEventListener("change", onChange);
-
-function onChange() {  
-    newtext = myinput.value;  
-    changeitem.innerHTML = newtext;  
+    myitem.style.fontFamily = "";
 }
