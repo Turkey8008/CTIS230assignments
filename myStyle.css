@@ -94,12 +94,14 @@ sub {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%
+    width: 100%;
+    
 }
 
 .flex2 {
     display: flex;
     flex-direction: row;
+    
 }
 
 .flexed1 {
@@ -133,10 +135,11 @@ header {
 
 footer {
     margin: 0;
+    margin-top: 16em;
     padding: 0.5%;
     width: 99%;
     background-color: burlywood;
-    position: absolute;
+    position: sticky;
     bottom: 0px;
     
 }
@@ -144,9 +147,12 @@ footer {
     text-align: center;
     color:dimgrey;
 }
+<<<<<<< HEAD
 .main {
     position:relative
 }
 #buttontest {
     text-indent: 0em;
 }
+=======
+>>>>>>> b7878e05d4d1890d80419736450f9876e114ecdc
