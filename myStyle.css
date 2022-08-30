@@ -78,7 +78,7 @@ img#salinger {
     margin: 2.5em;
 }
 
-.salingerparagraph {
+#salingerparagraph {
     margin-top: 5em;
 }
 
@@ -150,4 +150,7 @@ footer {
 }
 #buttontest {
     text-indent: 0em;
+}
+.dontshow {
+    display:none
 }
