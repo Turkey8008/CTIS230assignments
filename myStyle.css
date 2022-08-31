@@ -154,3 +154,37 @@ footer {
 .dontshow {
     display:none
 }
+
+
+/* Beginning of Responsive Web Design */
+/* 
+@media (max-width: 750px) {
+    .intro {
+        font-size: 0.75em;
+    }
+    .nav:hover {
+        font-size: 1em;
+    }
+} */
+
+
+@media (max-width: 1000px) {
+    .intro {
+        font-size: 0.75em;
+    }
+    .nav {
+        font-size: 2em;
+    }
+    .nav:hover {
+        font-size: 2em;
+    }
+    .noindent {
+        font-size: 1.75em;
+    }
+
+    #noindent2 {
+        font-size: 1.75em;
+    }
+}
+
+/* End of Responsive Web Design */
