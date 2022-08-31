@@ -28,7 +28,7 @@ body {
     color:blue;
     background-color:blanchedalmond;
     font-family: san-serif, cursive;
-    font-size: 18px;
+    font-size: 1.1rem;
     margin: 0;
 }
 
@@ -168,23 +168,91 @@ footer {
 } */
 
 
-@media (max-width: 1000px) {
+@media screen and (orientation: portrait) and (max-width: 980px) {
     .intro {
         font-size: 0.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
     .nav {
         font-size: 2em;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
     .nav:hover {
         font-size: 2em;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
     .noindent {
         font-size: 1.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
 
     #noindent2 {
         font-size: 1.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    .responsive {
+        font-size: 2em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    sub {
+        font-size: 0.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
 }
+
+@media screen and (min-width: 981px) {
+    .intro {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    .nav {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    .nav:hover {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    .noindent {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+
+    #noindent2 {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    .responsive {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    sub {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+} 
+/* End of Responsive Web Design */
+
+
+
+
+/* @media (orientation: landscape) {
+    
+}
+} */
 
 /* End of Responsive Web Design */
