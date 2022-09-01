@@ -166,7 +166,7 @@ footer {
         font-size: 1em;
     }
 } */
-
+/* 
 
 @media screen and (orientation: portrait) and (max-width: 980px) {
     .intro {
@@ -205,9 +205,19 @@ footer {
         transition-property: all;
         transition-duration: 0.5s;
     }
-}
+    #salingerparagraph {
+        font-size: 0.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    li {
+        font-size: 0.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    } 
+} */
 
-@media screen and (min-width: 981px) {
+/* @media screen and (min-width: 981px) {
     .intro {
         font-size: "";
         transition-property: all;
@@ -244,7 +254,17 @@ footer {
         transition-property: all;
         transition-duration: 0.5s;
     }
-} 
+    #salingerparagraph {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    } 
+    li {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    } 
+} */
 /* End of Responsive Web Design */
 
 
