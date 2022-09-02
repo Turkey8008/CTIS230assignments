@@ -161,14 +161,6 @@ footer {
 
 /* Beginning of Responsive Web Design */
 /* 
-@media (max-width: 750px) {
-    .intro {
-        font-size: 0.75em;
-    }
-    .nav:hover {
-        font-size: 1em;
-    }
-} */
 
 
 @media screen and (orientation: portrait) and (max-width: 980px) {
